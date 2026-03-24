@@ -1,3 +1,10 @@
+# @harshsandhu44/skills-cli [1.2.0](https://github.com/harshsandhu44/skills/compare/@harshsandhu44/skills-cli@1.1.0...@harshsandhu44/skills-cli@1.2.0) (2026-03-24)
+
+
+### Features
+
+* CLI improvements — fuzzy matching, info/completion commands, safer installs ([#2](https://github.com/harshsandhu44/skills/issues/2)) ([c628cb9](https://github.com/harshsandhu44/skills/commit/c628cb9ec66c508bc7229ad62b4fafa5e84ecf0b))
+
 # @harshsandhu44/skills-cli [1.1.0](https://github.com/harshsandhu44/skills/compare/@harshsandhu44/skills-cli@1.0.0...@harshsandhu44/skills-cli@1.1.0) (2026-03-24)
 
 
