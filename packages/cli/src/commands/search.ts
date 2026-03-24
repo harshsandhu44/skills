@@ -5,15 +5,21 @@ export function registerSearch(program: Command): void {
   program
     .command("search <query>")
     .description("Search skills by name or description")
-    .action(async (query: string) => {
+    .option("-j, --json", "Output as JSON")
+    .action(async (query: string, opts: { json?: boolean }) => {
       const skills = await getSkills();
       const q = query.toLowerCase();
-      const results = skills.filter(
-        (s) => s.name.toLowerCase().includes(q) || s.description.toLowerCase().includes(q)
-      );
+      const results = skills
+        .filter((s) => s.name.toLowerCase().includes(q) || s.description.toLowerCase().includes(q))
+        .sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
 
       if (results.length === 0) {
         console.log(`No skills matched "${query}".`);
+        return;
+      }
+
+      if (opts.json) {
+        console.log(JSON.stringify(results, null, 2));
         return;
       }
 
