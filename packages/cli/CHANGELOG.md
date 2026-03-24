@@ -1,3 +1,10 @@
+# @harshsandhu44/skills-cli [1.3.0](https://github.com/harshsandhu44/skills/compare/@harshsandhu44/skills-cli@1.2.0...@harshsandhu44/skills-cli@1.3.0) (2026-03-24)
+
+
+### Features
+
+* **cli:** publish to npm registry on release ([7bb267f](https://github.com/harshsandhu44/skills/commit/7bb267f3c5f4fd242764102db1d06dc0fb06b1de))
+
 # @harshsandhu44/skills-cli [1.2.0](https://github.com/harshsandhu44/skills/compare/@harshsandhu44/skills-cli@1.1.0...@harshsandhu44/skills-cli@1.2.0) (2026-03-24)
 
 
