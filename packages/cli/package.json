@@ -1,6 +1,6 @@
 {
   "name": "@skills/cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Install Claude Code skills from the community skills library",
   "bin": {
     "claude-skills": "./dist/index.js"
