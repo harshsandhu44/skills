@@ -1,3 +1,11 @@
+## @harshsandhu44/skills-cli [1.3.1](https://github.com/harshsandhu44/skills/compare/@harshsandhu44/skills-cli@1.3.0...@harshsandhu44/skills-cli@1.3.1) (2026-03-24)
+
+
+### Bug Fixes
+
+* **cli:** publish to github packages via temp npmrc in exec step ([bfc0f53](https://github.com/harshsandhu44/skills/commit/bfc0f53bf3396d16a683fecbd0a4a424d9b842f5))
+* **cli:** remove publishConfig registry override ([96a7122](https://github.com/harshsandhu44/skills/commit/96a7122c9a176955f54fa65b8eb2ab61a96000bb))
+
 # @harshsandhu44/skills-cli [1.3.0](https://github.com/harshsandhu44/skills/compare/@harshsandhu44/skills-cli@1.2.0...@harshsandhu44/skills-cli@1.3.0) (2026-03-24)
 
 
