@@ -2,10 +2,12 @@
   "name": "skills",
   "private": true,
   "workspaces": [
-    "skills"
+    "skills",
+    "packages/*"
   ],
   "scripts": {
-    "build": "turbo build",
+    "build": "bun run scripts/generate-manifest.ts && turbo build",
+    "generate-manifest": "bun run scripts/generate-manifest.ts",
     "dev": "turbo dev",
     "lint": "turbo lint"
   },
