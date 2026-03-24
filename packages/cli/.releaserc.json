@@ -14,7 +14,7 @@
     [
       "@semantic-release/exec",
       {
-        "publishCmd": "echo '//registry.npmjs.org/:_authToken=$NPM_TOKEN' >> .npmrc && npm publish --registry https://registry.npmjs.org --access public && git checkout -- .npmrc"
+        "publishCmd": "printf '//npm.pkg.github.com/:_authToken=%s\\nregistry=https://npm.pkg.github.com\\n' \"$GITHUB_TOKEN\" > /tmp/.npmrc-gh && npm publish --userconfig /tmp/.npmrc-gh --access public; rm -f /tmp/.npmrc-gh"
       }
     ],
     [
