@@ -1,6 +1,6 @@
 <div align="center">
 <pre>
-@skills/cli
+@harshsandhu44/skills-cli
 install Claude Code skills from the community library
 </pre>
 </div>
@@ -13,7 +13,7 @@ Claude how to behave for a specific task — drop them in, invoke by name.
 <pre>
 Install:
 
-  npm install -g @skills/cli
+  npm install -g @harshsandhu44/skills-cli
 </pre>
 
 <pre>

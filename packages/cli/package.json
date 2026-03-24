@@ -1,5 +1,5 @@
 {
-  "name": "@skills/cli",
+  "name": "@harshsandhu44/skills-cli",
   "version": "1.0.0",
   "description": "Install Claude Code skills from the community skills library",
   "bin": {

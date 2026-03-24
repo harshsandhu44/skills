@@ -32,7 +32,7 @@ Skills:
 <pre>
 Add a skill to your project:
 
-  npm install -g @skills/cli
+  npm install -g @harshsandhu44/cli
   claude-skills add debug-issue
 
   or manually:

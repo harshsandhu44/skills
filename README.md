@@ -54,7 +54,7 @@ Skills:
 <pre>
 Install with the CLI (recommended):
 
-  npm install -g @skills/cli
+  npm install -g @harshsandhu44/skills-cli
 
   claude-skills list
   claude-skills add debug-issue

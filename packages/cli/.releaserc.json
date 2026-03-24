@@ -26,7 +26,7 @@
       "@semantic-release/git",
       {
         "assets": ["CHANGELOG.md", "package.json"],
-        "message": "chore(release): @skills/cli ${nextRelease.version} [skip ci]"
+        "message": "chore(release): @harshsandhu44/skills-cli ${nextRelease.version} [skip ci]"
       }
     ]
   ]
