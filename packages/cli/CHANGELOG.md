@@ -1,3 +1,10 @@
+# @harshsandhu44/skills-cli [1.1.0](https://github.com/harshsandhu44/skills/compare/@harshsandhu44/skills-cli@1.0.0...@harshsandhu44/skills-cli@1.1.0) (2026-03-24)
+
+
+### Features
+
+* publish to github packages registry ([65c50ee](https://github.com/harshsandhu44/skills/commit/65c50ee9729c587c293eeae91dc01af8f7968c70))
+
 # @harshsandhu44/skills-cli 1.0.0 (2026-03-24)
 
 
