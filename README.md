@@ -54,8 +54,7 @@ Skills:
 <pre>
 Install with the CLI (recommended):
 
-  npm login --registry https://npm.pkg.github.com
-  npm install -g @harshsandhu44/skills-cli --registry https://npm.pkg.github.com
+  npm install -g @harshsandhu44/skills-cli
 
   claude-skills list
   claude-skills add debug-issue

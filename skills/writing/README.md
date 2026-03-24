@@ -24,7 +24,7 @@ Skills:
 <pre>
 Add a skill to your project:
 
-  npm install -g @harshsandhu44/cli
+  npm install -g @harshsandhu44/skills-cli
   claude-skills add commit
 
   or manually:
