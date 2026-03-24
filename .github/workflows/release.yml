@@ -29,6 +29,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Pull latest changes
+        run: git pull --rebase origin main
+
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
