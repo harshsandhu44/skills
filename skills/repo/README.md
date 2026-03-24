@@ -24,9 +24,14 @@ Skills:
 <pre>
 Add a skill to your project:
 
+  npm install -g @skills/cli
+  claude-skills add pr-description
+
+  or manually:
+
   mkdir -p .claude/skills/pr-description
   curl -o .claude/skills/pr-description/SKILL.md \
-    https://raw.githubusercontent.com/harshsandhu44/claude-skills/main/skills/repo/pr-description/SKILL.md
+    https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/repo/pr-description/SKILL.md
 
   Replace pr-description with any skill name above.
 </pre>

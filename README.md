@@ -52,12 +52,23 @@ Skills:
 </pre>
 
 <pre>
-Adding a skill to your project:
+Install with the CLI (recommended):
+
+  npm install -g @skills/cli
+
+  claude-skills list
+  claude-skills add debug-issue
+  claude-skills add --category coding
+  claude-skills add --all
+</pre>
+
+<pre>
+Install manually:
   Skills live in .claude/skills/ inside any repo. To add one:
 
   mkdir -p .claude/skills/debug-issue
   curl -o .claude/skills/debug-issue/SKILL.md \
-    https://raw.githubusercontent.com/harshsandhu44/claude-skills/main/skills/coding/debug-issue/SKILL.md
+    https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/coding/debug-issue/SKILL.md
 
   Then invoke it in Claude Code with:
     /debug-issue

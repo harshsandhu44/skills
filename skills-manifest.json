@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-24T05:57:28.620Z",
+  "skills": [
+    {
+      "name": "debug-issue",
+      "category": "coding",
+      "description": "Debug an issue systematically by identifying reproduction steps, tracing likely code paths, forming grounded hypotheses, and proposing or implementing the smallest safe fix. Use when investigating a bug, failure, or unexpected behavior.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/coding/debug-issue/SKILL.md"
+    },
+    {
+      "name": "implement-from-ticket",
+      "category": "coding",
+      "description": "Implement a feature or fix from ticket text by extracting requirements, inferring local conventions from the repository, keeping scope tight, and delivering the smallest complete solution. Use when working from Jira, Linear, GitHub issue, or similar ticket content.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/coding/implement-from-ticket/SKILL.md"
+    },
+    {
+      "name": "reduce-complexity",
+      "category": "coding",
+      "description": "Simplify overly complex code while preserving behavior. Use when a function, component, module, or flow is harder to read, reason about, test, or maintain than necessary.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/coding/reduce-complexity/SKILL.md"
+    },
+    {
+      "name": "review-changed-files",
+      "category": "coding",
+      "description": "Review only files modified in the current branch for bugs, regressions, edge cases, maintainability issues, and missing validation. Use when assessing the quality and risk of branch changes without drifting into unrelated code.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/coding/review-changed-files/SKILL.md"
+    },
+    {
+      "name": "write-tests",
+      "category": "coding",
+      "description": "Write or update tests only for files modified in the current branch. Use the repository’s existing testing library, helpers, conventions, and file patterns. Do not add or modify tests for untouched files unless a directly related shared test helper must be adjusted.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/coding/write-tests/SKILL.md"
+    },
+    {
+      "name": "create-acceptance-criteria",
+      "category": "product",
+      "description": "Create clear, testable acceptance criteria from a feature, user story, bug fix, or product request. Use when requirements need to be specific enough for engineering, QA, and review.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/product/create-acceptance-criteria/SKILL.md"
+    },
+    {
+      "name": "write-user-stories",
+      "category": "product",
+      "description": "Turn a feature idea, product request, or rough problem statement into clear user stories with scope, context, and acceptance direction. Use when product work needs to be structured for implementation.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/product/write-user-stories/SKILL.md"
+    },
+    {
+      "name": "edge-case-hunter",
+      "category": "qa",
+      "description": "Identify edge cases, boundary conditions, and failure modes for a feature, bug fix, workflow, or API. Use when trying to reduce surprises before implementation, review, or release.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/qa/edge-case-hunter/SKILL.md"
+    },
+    {
+      "name": "test-plan",
+      "category": "qa",
+      "description": "Create a practical test plan for a feature, bug fix, or release by identifying critical scenarios, risks, edge cases, and validation areas. Use when planning QA coverage before or during implementation.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/qa/test-plan/SKILL.md"
+    },
+    {
+      "name": "branch-review",
+      "category": "repo",
+      "description": "Review the current branch holistically by summarizing its intent, changed areas, risk level, test coverage quality, and likely follow-up concerns. Use when preparing a branch for merge or explaining its overall quality.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/repo/branch-review/SKILL.md"
+    },
+    {
+      "name": "issue-writer",
+      "category": "repo",
+      "description": "Turn a rough problem statement, bug, request, or idea into a clear issue with context, scope, expected outcome, and implementation guidance where appropriate. Use for GitHub issues, Linear tasks, Jira tickets, or internal tracking.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/repo/issue-writer/SKILL.md"
+    },
+    {
+      "name": "pr-description",
+      "category": "repo",
+      "description": "Write a clear pull request description from branch changes, commit history, ticket text, or notes. Use when preparing a PR for reviewers and you want a concise, useful summary with context, scope, risks, and test notes.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/repo/pr-description/SKILL.md"
+    },
+    {
+      "name": "commit",
+      "category": "writing",
+      "description": "Review current git changes, validate them, and create a clean commit",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/writing/commit/SKILL.md"
+    },
+    {
+      "name": "pr",
+      "category": "writing",
+      "description": "Create a pull request from the current branch with a strong title and description",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/writing/pr/SKILL.md"
+    },
+    {
+      "name": "write-status-update",
+      "category": "writing",
+      "description": "Turn raw notes, tickets, commits, or progress bullets into a clear status update with progress, current state, risks, and next steps. Use for weekly updates, project updates, and stakeholder communication.",
+      "rawUrl": "https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/writing/write-status-update/SKILL.md"
+    }
+  ]
+}

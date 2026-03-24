@@ -2,14 +2,24 @@
   "name": "skills",
   "private": true,
   "workspaces": [
-    "skills"
+    "skills",
+    "packages/*"
   ],
   "scripts": {
-    "build": "turbo build",
+    "build": "bun run scripts/generate-manifest.ts && turbo build",
+    "generate-manifest": "bun run scripts/generate-manifest.ts",
     "dev": "turbo dev",
     "lint": "turbo lint"
   },
   "devDependencies": {
-    "turbo": "latest"
+    "turbo": "latest",
+    "multi-semantic-release": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/release-notes-generator": "^14.0.0",
+    "@semantic-release/npm": "^12.0.0",
+    "@semantic-release/github": "^11.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/changelog": "^6.0.3"
   }
 }
