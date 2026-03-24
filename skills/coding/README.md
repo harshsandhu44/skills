@@ -32,9 +32,14 @@ Skills:
 <pre>
 Add a skill to your project:
 
+  npm install -g @skills/cli
+  claude-skills add debug-issue
+
+  or manually:
+
   mkdir -p .claude/skills/debug-issue
   curl -o .claude/skills/debug-issue/SKILL.md \
-    https://raw.githubusercontent.com/harshsandhu44/claude-skills/main/skills/coding/debug-issue/SKILL.md
+    https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/coding/debug-issue/SKILL.md
 
   Replace debug-issue with any skill name above.
 </pre>

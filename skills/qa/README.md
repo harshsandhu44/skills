@@ -20,9 +20,14 @@ Skills:
 <pre>
 Add a skill to your project:
 
+  npm install -g @skills/cli
+  claude-skills add test-plan
+
+  or manually:
+
   mkdir -p .claude/skills/test-plan
   curl -o .claude/skills/test-plan/SKILL.md \
-    https://raw.githubusercontent.com/harshsandhu44/claude-skills/main/skills/qa/test-plan/SKILL.md
+    https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/qa/test-plan/SKILL.md
 
   Replace test-plan with any skill name above.
 </pre>

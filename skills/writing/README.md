@@ -24,9 +24,14 @@ Skills:
 <pre>
 Add a skill to your project:
 
+  npm install -g @skills/cli
+  claude-skills add commit
+
+  or manually:
+
   mkdir -p .claude/skills/commit
   curl -o .claude/skills/commit/SKILL.md \
-    https://raw.githubusercontent.com/harshsandhu44/claude-skills/main/skills/writing/commit/SKILL.md
+    https://raw.githubusercontent.com/harshsandhu44/skills/main/skills/writing/commit/SKILL.md
 
   Replace commit with any skill name above.
 </pre>
