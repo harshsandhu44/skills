@@ -12,6 +12,12 @@
     ],
     "@semantic-release/npm",
     [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "echo '//registry.npmjs.org/:_authToken=$NPM_TOKEN' >> .npmrc && npm publish --registry https://registry.npmjs.org --access public && git checkout -- .npmrc"
+      }
+    ],
+    [
       "@semantic-release/github",
       {
         "assets": [
