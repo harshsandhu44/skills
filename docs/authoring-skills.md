@@ -3,7 +3,7 @@
 This plugin auto-discovers components by directory. Drop a file in the right
 place and it loads — no manifest edits needed.
 
-## Skills — `plugins/skills/skills/<name>/SKILL.md`
+## Skills — `plugins/<plugin>/skills/<name>/SKILL.md`
 
 ```markdown
 ---
@@ -21,7 +21,7 @@ disclosure). Keep the description sharp; keep the body focused.
 - Bundle reference docs/scripts in the same folder and link them by relative
   path so they're read on demand.
 
-## Commands — `plugins/skills/commands/<name>.md`
+## Commands — `plugins/<plugin>/commands/<name>.md`
 
 User-invoked slash commands. The body is the prompt; frontmatter is optional.
 
@@ -33,7 +33,7 @@ description: One line shown in the /command picker.
 Do the thing the user asked, using $ARGUMENTS.
 ```
 
-## Agents — `plugins/skills/agents/<name>.md`
+## Agents — `plugins/<plugin>/agents/<name>.md`
 
 Subagents Claude can delegate to.
 
@@ -47,7 +47,7 @@ tools: Read, Grep, Glob
 System prompt for the agent.
 ```
 
-## Hooks — `plugins/skills/hooks/hooks.json`
+## Hooks — `plugins/<plugin>/hooks/hooks.json`
 
 Add this file only when you have a real hook (an empty one trips `--strict`).
 
@@ -64,7 +64,7 @@ Add this file only when you have a real hook (an empty one trips `--strict`).
 }
 ```
 
-## MCP servers — `plugins/skills/.mcp.json`
+## MCP servers — `plugins/<plugin>/.mcp.json`
 
 Add only when bundling a real MCP server.
 
@@ -79,5 +79,5 @@ Add only when bundling a real MCP server.
 ## Validate
 
 ```bash
-claude plugin validate plugins/skills --strict
+claude plugin validate plugins/<plugin> --strict
 ```

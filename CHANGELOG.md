@@ -6,6 +6,16 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- `dev-workflow` plugin (`commit`, `review`, `branch-tests`, `tdd`).
+- `claude-meta` plugin (`write-a-skill`, `grill-me`, `hand-off`, `caveman`), with attribution note.
+- `web-perf` plugin (`web-perf`).
+
+### Removed
+
+- Placeholder `skills` plugin and its `hello-world` example.
+
 ## [0.1.0] - 2026-06-12
 
 ### Added
