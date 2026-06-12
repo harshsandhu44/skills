@@ -1,0 +1,9 @@
+{
+  "name": "web-perf",
+  "version": "0.1.0",
+  "description": "Analyze web performance and Core Web Vitals using Chrome DevTools.",
+  "author": {
+    "name": "Harsh Sandhu",
+    "email": "me@harshsandhu.com"
+  }
+}

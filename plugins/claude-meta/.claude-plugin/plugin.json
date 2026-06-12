@@ -1,0 +1,9 @@
+{
+  "name": "claude-meta",
+  "version": "0.1.0",
+  "description": "Skills for steering Claude itself: authoring skills, planning, handoffs, and terse mode.",
+  "author": {
+    "name": "Harsh Sandhu",
+    "email": "me@harshsandhu.com"
+  }
+}
