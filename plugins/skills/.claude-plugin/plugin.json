@@ -1,0 +1,9 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "description": "A collection of Claude Code skills, commands, and agents.",
+  "author": {
+    "name": "Harsh Sandhu",
+    "email": "me@harshsandhu.com"
+  }
+}
