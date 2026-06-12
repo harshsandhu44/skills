@@ -11,6 +11,18 @@ Add the marketplace, then install a plugin from it:
 /plugin install dev-workflow@harshsandhu
 ```
 
+## Updating
+
+Installed plugins are cached snapshots, not live links to this repo. After a
+change is pushed here, pull it into an installation with:
+
+```text
+/plugin update dev-workflow@harshsandhu
+```
+
+Skills are namespaced by their plugin once installed — e.g. `grill-me` is
+invoked as `claude-meta:grill-me`.
+
 ## Plugins
 
 | Plugin | Skills | Description |
