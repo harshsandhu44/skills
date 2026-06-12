@@ -1,0 +1,6 @@
+{
+  // Lint repo docs and plugin READMEs. Skill payloads under plugins/**/skills/**
+  // are authored to their own conventions (often vendored), so they are excluded.
+  "globs": ["**/*.md"],
+  "ignores": ["plugins/**/skills/**", "node_modules"]
+}
