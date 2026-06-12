@@ -7,9 +7,19 @@
   },
   "plugins": [
     {
-      "name": "skills",
-      "source": "./plugins/skills",
-      "description": "A collection of Claude Code skills, commands, and agents."
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "description": "The everyday coding loop: commit, review, branch tests, and TDD."
+    },
+    {
+      "name": "claude-meta",
+      "source": "./plugins/claude-meta",
+      "description": "Skills for steering Claude itself: authoring skills, planning, handoffs, and terse mode."
+    },
+    {
+      "name": "web-perf",
+      "source": "./plugins/web-perf",
+      "description": "Analyze web performance and Core Web Vitals using Chrome DevTools."
     }
   ]
 }
