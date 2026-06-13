@@ -29,7 +29,7 @@ invoked as `claude-meta:grill-me`.
 | ------ | -------- | ----------- |
 | `dev-workflow` | `commit`, `review`, `branch-tests`, `tdd` | The everyday coding loop: commit, review, branch tests, and TDD. |
 | `claude-meta` | `write-a-skill`, `grill-me`, `hand-off`, `caveman` | Skills for steering Claude itself: authoring, planning, handoffs, terse mode. |
-| `web-perf` | `web-perf` | Analyze web performance and Core Web Vitals using Chrome DevTools. |
+| `web-perf` | `web-perf`, `bundle-diet`, `nextjs-perf-review`, `seo-a11y-audit`, `landing-page-roast` | Analyze and improve web performance, bundles, Next.js rendering, SEO/a11y, and conversion. |
 | `product-ops` | 6 skills + 4 agents | Turn fuzzy product ideas into shippable plans: specs, slices, API/DB design, debugging, scope cuts. |
 | `release-ops` | 5 skills + 3 commands | Ship with confidence: PR write-ups, checklists, changelogs, dependency upgrades, postmortems. |
 | `security-ops` | 5 skills + 3 agents + hooks | Lightweight security review: threat models, authz/rate-limit checks, secret sweeps, dependency risk. |

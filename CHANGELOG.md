@@ -15,6 +15,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `release-ops` plugin: skills (`pr-builder`, `release-checklist`, `changelog`, `dependency-upgrade`, `incident-postmortem`) and commands (`/ship-readiness`, `/explain-diff`, `/pr`).
 - `security-ops` plugin: skills (`threat-model`, `auth-boundary-review`, `secret-sweep`, `dependency-risk`, `rate-limit-review`), agents (`security-reviewer`, `authz-reviewer`, `secrets-detective`), and guardrail hooks (block dangerous Bash, warn on secrets in edited files).
 
+### Changed
+
+- `web-perf` 0.2.0: added skills `bundle-diet`, `nextjs-perf-review`, `seo-a11y-audit`, and `landing-page-roast`.
+
 ### Removed
 
 - Placeholder `skills` plugin and its `hello-world` example.
