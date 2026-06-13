@@ -20,6 +20,11 @@
       "name": "web-perf",
       "source": "./plugins/web-perf",
       "description": "Analyze web performance and Core Web Vitals using Chrome DevTools."
+    },
+    {
+      "name": "product-ops",
+      "source": "./plugins/product-ops",
+      "description": "Turn fuzzy product ideas into shippable plans: specs, slices, API and DB design, systematic debugging, and ruthless scope cuts."
     }
   ]
 }
