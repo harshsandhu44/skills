@@ -34,6 +34,7 @@ invoked as `claude-meta:grill-me`.
 | `release-ops` | 5 skills + 3 commands | Ship with confidence: PR write-ups, checklists, changelogs, dependency upgrades, postmortems. |
 | `security-ops` | 5 skills + 3 agents + hooks | Lightweight security review: threat models, authz/rate-limit checks, secret sweeps, dependency risk. |
 | `research-lab` | 3 skills + 4 agents | Research before building: distill papers, tear down competitors, kill weak ideas, find/check evidence, size markets. |
+| `field-notes` | 3 skills | Personal debriefs: F1 races, football matches, and night-sky observation sessions. |
 
 ## Repository layout
 
@@ -44,6 +45,7 @@ plugins/<plugin>/                  # one directory per plugin
   skills/                          # SKILL.md-based skills
   commands/                        # slash commands (optional)
   agents/                          # subagents (optional)
+  hooks/hooks.json                 # event hooks (optional)
 ```
 
 ## Contributing

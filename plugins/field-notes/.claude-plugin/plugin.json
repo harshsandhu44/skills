@@ -1,0 +1,9 @@
+{
+  "name": "field-notes",
+  "version": "0.1.0",
+  "description": "Personal debrief notes for the things worth watching: F1 races, football matches, and night-sky observation sessions.",
+  "author": {
+    "name": "Harsh Sandhu",
+    "email": "me@harshsandhu.com"
+  }
+}

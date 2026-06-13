@@ -16,6 +16,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `security-ops` plugin: skills (`threat-model`, `auth-boundary-review`, `secret-sweep`, `dependency-risk`, `rate-limit-review`), agents (`security-reviewer`, `authz-reviewer`, `secrets-detective`), and guardrail hooks (block dangerous Bash, warn on secrets in edited files).
 
 - `research-lab` plugin: skills (`paper-to-notes`, `competitor-teardown`, `idea-kill-test`) and agents (`evidence-scout`, `source-skeptic`, `market-sizer`, `copy-roaster`).
+- `field-notes` plugin: skills (`f1-race-debrief`, `football-match-review`, `astro-observation-plan`).
 
 ### Changed
 
