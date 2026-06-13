@@ -30,6 +30,11 @@
       "name": "release-ops",
       "source": "./plugins/release-ops",
       "description": "Ship with confidence: PR write-ups, release checklists, changelogs, safe dependency upgrades, and incident postmortems."
+    },
+    {
+      "name": "security-ops",
+      "source": "./plugins/security-ops",
+      "description": "Lightweight security review for everyday work: threat models, authz and rate-limit checks, secret sweeps, dependency risk, plus guardrail hooks."
     }
   ]
 }

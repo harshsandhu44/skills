@@ -32,6 +32,7 @@ invoked as `claude-meta:grill-me`.
 | `web-perf` | `web-perf` | Analyze web performance and Core Web Vitals using Chrome DevTools. |
 | `product-ops` | 6 skills + 4 agents | Turn fuzzy product ideas into shippable plans: specs, slices, API/DB design, debugging, scope cuts. |
 | `release-ops` | 5 skills + 3 commands | Ship with confidence: PR write-ups, checklists, changelogs, dependency upgrades, postmortems. |
+| `security-ops` | 5 skills + 3 agents + hooks | Lightweight security review: threat models, authz/rate-limit checks, secret sweeps, dependency risk. |
 
 ## Repository layout
 

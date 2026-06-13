@@ -13,6 +13,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `web-perf` plugin (`web-perf`).
 - `product-ops` plugin: skills (`spec-to-plan`, `thin-slice`, `api-contract`, `db-model-review`, `debug-ladder`, `mvp-scope-cut`) and agents (`codebase-cartographer`, `spec-skeptic`, `api-contract-reviewer`, `db-access-pattern-reviewer`).
 - `release-ops` plugin: skills (`pr-builder`, `release-checklist`, `changelog`, `dependency-upgrade`, `incident-postmortem`) and commands (`/ship-readiness`, `/explain-diff`, `/pr`).
+- `security-ops` plugin: skills (`threat-model`, `auth-boundary-review`, `secret-sweep`, `dependency-risk`, `rate-limit-review`), agents (`security-reviewer`, `authz-reviewer`, `secrets-detective`), and guardrail hooks (block dangerous Bash, warn on secrets in edited files).
 
 ### Removed
 
