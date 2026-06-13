@@ -1,0 +1,9 @@
+{
+  "name": "research-lab",
+  "version": "0.1.0",
+  "description": "Research and validate before you build: distill papers, tear down competitors, kill weak ideas, find evidence, check sources, and size markets.",
+  "author": {
+    "name": "Harsh Sandhu",
+    "email": "me@harshsandhu.com"
+  }
+}

@@ -33,6 +33,7 @@ invoked as `claude-meta:grill-me`.
 | `product-ops` | 6 skills + 4 agents | Turn fuzzy product ideas into shippable plans: specs, slices, API/DB design, debugging, scope cuts. |
 | `release-ops` | 5 skills + 3 commands | Ship with confidence: PR write-ups, checklists, changelogs, dependency upgrades, postmortems. |
 | `security-ops` | 5 skills + 3 agents + hooks | Lightweight security review: threat models, authz/rate-limit checks, secret sweeps, dependency risk. |
+| `research-lab` | 3 skills + 4 agents | Research before building: distill papers, tear down competitors, kill weak ideas, find/check evidence, size markets. |
 
 ## Repository layout
 
