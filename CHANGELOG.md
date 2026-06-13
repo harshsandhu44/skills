@@ -12,6 +12,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `claude-meta` plugin (`write-a-skill`, `grill-me`, `hand-off`, `caveman`), with attribution note.
 - `web-perf` plugin (`web-perf`).
 - `product-ops` plugin: skills (`spec-to-plan`, `thin-slice`, `api-contract`, `db-model-review`, `debug-ladder`, `mvp-scope-cut`) and agents (`codebase-cartographer`, `spec-skeptic`, `api-contract-reviewer`, `db-access-pattern-reviewer`).
+- `release-ops` plugin: skills (`pr-builder`, `release-checklist`, `changelog`, `dependency-upgrade`, `incident-postmortem`) and commands (`/ship-readiness`, `/explain-diff`, `/pr`).
 
 ### Removed
 

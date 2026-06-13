@@ -25,6 +25,11 @@
       "name": "product-ops",
       "source": "./plugins/product-ops",
       "description": "Turn fuzzy product ideas into shippable plans: specs, slices, API and DB design, systematic debugging, and ruthless scope cuts."
+    },
+    {
+      "name": "release-ops",
+      "source": "./plugins/release-ops",
+      "description": "Ship with confidence: PR write-ups, release checklists, changelogs, safe dependency upgrades, and incident postmortems."
     }
   ]
 }

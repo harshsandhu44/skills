@@ -31,6 +31,7 @@ invoked as `claude-meta:grill-me`.
 | `claude-meta` | `write-a-skill`, `grill-me`, `hand-off`, `caveman` | Skills for steering Claude itself: authoring, planning, handoffs, terse mode. |
 | `web-perf` | `web-perf` | Analyze web performance and Core Web Vitals using Chrome DevTools. |
 | `product-ops` | 6 skills + 4 agents | Turn fuzzy product ideas into shippable plans: specs, slices, API/DB design, debugging, scope cuts. |
+| `release-ops` | 5 skills + 3 commands | Ship with confidence: PR write-ups, checklists, changelogs, dependency upgrades, postmortems. |
 
 ## Repository layout
 
