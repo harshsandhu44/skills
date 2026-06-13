@@ -2,7 +2,7 @@
 
 Thanks for contributing! This repo is a Claude Code plugin marketplace. Most
 contributions add a **skill**, **command**, or **agent** to one of the plugins
-under `plugins/` (`dev-workflow`, `claude-meta`, or `web-perf`).
+under `plugins/` (see the table in the [README](README.md) for the current set).
 
 ## Add a skill
 

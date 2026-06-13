@@ -25,11 +25,16 @@ invoked as `claude-meta:grill-me`.
 
 ## Plugins
 
-| Plugin | Skills | Description |
-| ------ | ------ | ----------- |
+| Plugin | Contents | Description |
+| ------ | -------- | ----------- |
 | `dev-workflow` | `commit`, `review`, `branch-tests`, `tdd` | The everyday coding loop: commit, review, branch tests, and TDD. |
 | `claude-meta` | `write-a-skill`, `grill-me`, `hand-off`, `caveman` | Skills for steering Claude itself: authoring, planning, handoffs, terse mode. |
-| `web-perf` | `web-perf` | Analyze web performance and Core Web Vitals using Chrome DevTools. |
+| `web-perf` | `web-perf`, `bundle-diet`, `nextjs-perf-review`, `seo-a11y-audit`, `landing-page-roast` | Analyze and improve web performance, bundles, Next.js rendering, SEO/a11y, and conversion. |
+| `product-ops` | 6 skills + 4 agents | Turn fuzzy product ideas into shippable plans: specs, slices, API/DB design, debugging, scope cuts. |
+| `release-ops` | 5 skills + 3 commands | Ship with confidence: PR write-ups, checklists, changelogs, dependency upgrades, postmortems. |
+| `security-ops` | 5 skills + 3 agents + hooks | Lightweight security review: threat models, authz/rate-limit checks, secret sweeps, dependency risk. |
+| `research-lab` | 3 skills + 4 agents | Research before building: distill papers, tear down competitors, kill weak ideas, find/check evidence, size markets. |
+| `field-notes` | 3 skills | Personal debriefs: F1 races, football matches, and night-sky observation sessions. |
 
 ## Repository layout
 
@@ -40,6 +45,7 @@ plugins/<plugin>/                  # one directory per plugin
   skills/                          # SKILL.md-based skills
   commands/                        # slash commands (optional)
   agents/                          # subagents (optional)
+  hooks/hooks.json                 # event hooks (optional)
 ```
 
 ## Contributing

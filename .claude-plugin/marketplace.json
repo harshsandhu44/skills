@@ -20,6 +20,31 @@
       "name": "web-perf",
       "source": "./plugins/web-perf",
       "description": "Analyze web performance and Core Web Vitals using Chrome DevTools."
+    },
+    {
+      "name": "product-ops",
+      "source": "./plugins/product-ops",
+      "description": "Turn fuzzy product ideas into shippable plans: specs, slices, API and DB design, systematic debugging, and ruthless scope cuts."
+    },
+    {
+      "name": "release-ops",
+      "source": "./plugins/release-ops",
+      "description": "Ship with confidence: PR write-ups, release checklists, changelogs, safe dependency upgrades, and incident postmortems."
+    },
+    {
+      "name": "security-ops",
+      "source": "./plugins/security-ops",
+      "description": "Lightweight security review for everyday work: threat models, authz and rate-limit checks, secret sweeps, dependency risk, plus guardrail hooks."
+    },
+    {
+      "name": "research-lab",
+      "source": "./plugins/research-lab",
+      "description": "Research and validate before you build: distill papers, tear down competitors, kill weak ideas, find evidence, check sources, and size markets."
+    },
+    {
+      "name": "field-notes",
+      "source": "./plugins/field-notes",
+      "description": "Personal debrief notes for the things worth watching: F1 races, football matches, and night-sky observation sessions."
     }
   ]
 }
