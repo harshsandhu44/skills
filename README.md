@@ -31,11 +31,17 @@ your request matches its description, or you can invoke it directly (see
 ## Updating
 
 Installed plugins are cached snapshots, not live links to this repo. After a
-change is pushed here, pull it into an installation with:
+change is pushed here, refresh the marketplace and reload to pull it in:
 
 ```text
-/plugin update dev-workflow@harshsandhu
+/plugin marketplace update harshsandhu
+/reload-plugins
 ```
+
+Refreshing the marketplace updates its installed plugins to their latest
+version. To do this automatically at startup, enable auto-update for the
+marketplace from the **Marketplaces** tab in `/plugin` (it's off by default for
+third-party marketplaces).
 
 Skills are namespaced by their plugin once installed — e.g. `grill-me` is
 invoked as `claude-meta:grill-me`.
