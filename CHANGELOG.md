@@ -21,6 +21,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 
 - `web-perf` 0.2.0: added skills `bundle-diet`, `nextjs-perf-review`, `seo-a11y-audit`, and `landing-page-roast`.
+- `product-ops` 0.2.0: added skill `ai-metrics`.
 
 ### Removed
 
