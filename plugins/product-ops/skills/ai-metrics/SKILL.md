@@ -130,3 +130,37 @@ Example: 120 ÷ 150 × 100 = **80% defect detection efficiency**.
 ```
 
 A table of numbers isn't the deliverable — the read on them is.
+
+## Deliver the report
+
+After presenting the report in chat, also write it to a self-contained HTML file in the
+system temp dir so the user can view and share it. Render the same sections; include a
+print stylesheet so it paginates cleanly.
+
+```bash
+REPORT="${TMPDIR:-/tmp}/ai-metrics-$(date +%Y%m%d-%H%M).html"
+# write the HTML to "$REPORT" (Write tool), then offer to open it:
+```
+
+Use a minimal HTML shell — a styled `<body>` with the sections, plus:
+
+```html
+<style>
+  body { font: 15px/1.5 system-ui, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; }
+  @media print { body { margin: 0; } }
+</style>
+```
+
+Then tell the user the path and offer to open it — **ask first, don't auto-open**:
+
+```bash
+open "$REPORT"        # macOS
+xdg-open "$REPORT"    # Linux
+start "$REPORT"       # Windows
+```
+
+**To export as PDF:** open it in the browser, then **Print** (`Cmd/Ctrl+P`) →
+**Destination: Save as PDF** → Save. Browser print-to-PDF keeps the table styling and
+needs no extra tooling.
