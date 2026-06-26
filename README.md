@@ -1,15 +1,32 @@
 # harshsandhu
 
-A [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin marketplace.
+A [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin marketplace —
+a collection of **skills, slash commands, and subagents** that teach Claude how to
+do specific jobs well: ship code, review for security, plan features, audit web
+performance, and more.
+
+Each plugin is a small, focused bundle. Install only the ones you want; they layer
+onto Claude Code without changing how you already work. Browse the [Plugins](#plugins)
+table to see what's on offer.
+
+**Who this is for:** anyone using Claude Code who wants sharper, repeatable help on
+a recurring task — and contributors who want to add their own.
+
+**Requirements:** [Claude Code](https://docs.claude.com/en/docs/claude-code)
+installed and authenticated. That's it.
 
 ## Install
 
-Add the marketplace, then install a plugin from it:
+In Claude Code, add this marketplace once, then install any plugin from it:
 
 ```text
 /plugin marketplace add harshsandhu44/skills
 /plugin install dev-workflow@harshsandhu
 ```
+
+Installed skills become available automatically — Claude loads the right one when
+your request matches its description, or you can invoke it directly (see
+[namespacing](#updating)).
 
 ## Updating
 
@@ -50,8 +67,13 @@ plugins/<plugin>/                  # one directory per plugin
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md), and [docs/authoring-skills.md](docs/authoring-skills.md)
-for skill/command/agent conventions and templates.
+Contributions are welcome — a useful skill can be a single Markdown file. The
+fastest path: fork, add a `SKILL.md` under the relevant `plugins/<plugin>/skills/`,
+and open a PR.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the step-by-step (and how to validate
+locally), and [docs/authoring-skills.md](docs/authoring-skills.md) for the full
+skill/command/agent conventions and templates.
 
 ## License
 
