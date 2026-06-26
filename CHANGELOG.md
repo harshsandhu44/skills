@@ -22,6 +22,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - `web-perf` 0.2.0: added skills `bundle-diet`, `nextjs-perf-review`, `seo-a11y-audit`, and `landing-page-roast`.
 - `product-ops` 0.2.0: added skill `ai-metrics`.
+- `product-ops` 0.3.0: `ai-metrics` now auto-sources inputs from git, the `gh` CLI, Jira/GitHub MCP, and CI instead of asking the user for numbers.
 
 ### Removed
 
