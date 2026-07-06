@@ -25,6 +25,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - `product-ops` 0.2.0: added skill `ai-metrics`.
 - `product-ops` 0.3.0: `ai-metrics` now auto-sources inputs from git, the `gh` CLI, Jira/GitHub MCP, and CI instead of asking the user for numbers.
 - `product-ops` 0.4.0: `ai-metrics` now writes the report to a temp HTML file, offers to open it in the browser, and explains PDF export via browser print.
+- `magic` 0.2.0: added skill `deliverables` (commits → Jira tickets report, markdown + HTML).
 - `product-ops` 0.5.0: renamed `ai-metrics` → `contributor-metrics` and reframed it from team AI-adoption to one contributor's productivity across GitHub and Jira — author-scoped to the authenticated user, runtime scope chooser (single repo / several repos / whole org), period-over-period baseline (last 30d vs prior 30d). **Breaking:** the `ai-metrics` trigger is gone.
 
 ### Removed

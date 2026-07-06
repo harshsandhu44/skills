@@ -1,6 +1,6 @@
 {
   "name": "magic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Org tooling: connects Claude to the company's GitHub and Atlassian (Jira/Confluence) via their official MCP servers.",
   "author": {
     "name": "Harsh Sandhu",
