@@ -45,6 +45,11 @@
       "name": "field-notes",
       "source": "./plugins/field-notes",
       "description": "Personal debrief notes for the things worth watching: F1 races, football matches, and night-sky observation sessions."
+    },
+    {
+      "name": "magic",
+      "source": "./plugins/magic",
+      "description": "Org tooling: connects Claude to the company's GitHub and Atlassian (Jira/Confluence) via their official MCP servers."
     }
   ]
 }
