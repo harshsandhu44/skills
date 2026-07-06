@@ -17,6 +17,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - `research-lab` plugin: skills (`paper-to-notes`, `competitor-teardown`, `idea-kill-test`) and agents (`evidence-scout`, `source-skeptic`, `market-sizer`, `copy-roaster`).
 - `field-notes` plugin: skills (`f1-race-debrief`, `football-match-review`, `astro-observation-plan`).
+- `magic` plugin: connects Claude to the org's GitHub and Atlassian (Jira/Confluence) MCP servers; skills (`claude-vs-dev`, `deliverables`). `deliverables` maps a contributor's commits to the Jira tickets they reference and writes a markdown report plus a styled HTML rendering.
 
 ### Changed
 

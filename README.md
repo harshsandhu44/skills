@@ -58,6 +58,7 @@ invoked as `claude-meta:grill-me`.
 | `security-ops` | 5 skills + 3 agents + hooks | Lightweight security review: threat models, authz/rate-limit checks, secret sweeps, dependency risk. |
 | `research-lab` | 3 skills + 4 agents | Research before building: distill papers, tear down competitors, kill weak ideas, find/check evidence, size markets. |
 | `field-notes` | 3 skills | Personal debriefs: F1 races, football matches, and night-sky observation sessions. |
+| `magic` | `claude-vs-dev`, `deliverables` | Org tooling over the GitHub + Atlassian (Jira) MCP servers: split human vs Claude-assisted commits, and map a contributor's commits to the Jira tickets they delivered. |
 
 ## Repository layout
 
