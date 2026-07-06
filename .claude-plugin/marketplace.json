@@ -49,7 +49,7 @@
     {
       "name": "magic",
       "source": "./plugins/magic",
-      "description": "Org tooling: connects Claude to the company's GitHub and Atlassian (Jira/Confluence) via their official MCP servers."
+      "description": "Org tooling over the GitHub and Atlassian (Jira/Confluence) MCP servers: split human vs Claude-assisted commits, and map a contributor's commits to the Jira tickets they delivered."
     }
   ]
 }
