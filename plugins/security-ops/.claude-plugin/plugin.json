@@ -1,9 +1,0 @@
-{
-  "name": "security-ops",
-  "version": "0.1.0",
-  "description": "Lightweight security review for everyday work: threat models, authz and rate-limit checks, secret sweeps, dependency risk, plus guardrail hooks.",
-  "author": {
-    "name": "Harsh Sandhu",
-    "email": "me@harshsandhu.com"
-  }
-}

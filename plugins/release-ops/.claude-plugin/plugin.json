@@ -1,9 +1,0 @@
-{
-  "name": "release-ops",
-  "version": "0.1.0",
-  "description": "Ship with confidence: PR write-ups, release checklists, changelogs, safe dependency upgrades, and incident postmortems.",
-  "author": {
-    "name": "Harsh Sandhu",
-    "email": "me@harshsandhu.com"
-  }
-}
