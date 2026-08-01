@@ -6,7 +6,7 @@ under `plugins/` (see the table in the [README](README.md) for the current set).
 
 ## Add a skill
 
-1. Create `plugins/dev-workflow/skills/<your-skill>/SKILL.md`.
+1. Create `plugins/code/skills/<your-skill>/SKILL.md`.
 2. Use kebab-case for the directory and the frontmatter `name` (they must match).
 3. Write a `description` that says *what it does* and *when to use it* — this is
    all Claude sees before loading the skill.
@@ -19,7 +19,7 @@ Before opening a PR, validate the manifests the same way CI does:
 
 ```bash
 claude plugin validate . --strict
-claude plugin validate plugins/dev-workflow --strict
+claude plugin validate plugins/code --strict
 ```
 
 Lint the markdown:
