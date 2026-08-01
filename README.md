@@ -21,7 +21,7 @@ In Claude Code, add this marketplace once, then install any plugin from it:
 
 ```text
 /plugin marketplace add harshsandhu44/skills
-/plugin install dev-workflow@harshsandhu
+/plugin install code@harshsandhu
 ```
 
 Installed skills become available automatically — Claude loads the right one when
@@ -44,20 +44,14 @@ marketplace from the **Marketplaces** tab in `/plugin` (it's off by default for
 third-party marketplaces).
 
 Skills are namespaced by their plugin once installed — e.g. `grill-me` is
-invoked as `claude-meta:grill-me`.
+invoked as `notes:grill-me`.
 
 ## Plugins
 
 | Plugin | Contents | Description |
 | ------ | -------- | ----------- |
-| `dev-workflow` | `commit`, `review`, `branch-tests`, `tdd` | The everyday coding loop: commit, review, branch tests, and TDD. |
-| `claude-meta` | `write-a-skill`, `grill-me`, `hand-off`, `caveman` | Skills for steering Claude itself: authoring, planning, handoffs, terse mode. |
-| `web-perf` | `web-perf`, `bundle-diet`, `nextjs-perf-review`, `seo-a11y-audit`, `landing-page-roast` | Analyze and improve web performance, bundles, Next.js rendering, SEO/a11y, and conversion. |
-| `product-ops` | 7 skills + 4 agents | Turn fuzzy product ideas into shippable plans: specs, slices, API/DB design, debugging, scope cuts, AI metrics. |
-| `release-ops` | 5 skills + 3 commands | Ship with confidence: PR write-ups, checklists, changelogs, dependency upgrades, postmortems. |
-| `security-ops` | 5 skills + 3 agents + hooks | Lightweight security review: threat models, authz/rate-limit checks, secret sweeps, dependency risk. |
-| `research-lab` | 3 skills + 4 agents | Research before building: distill papers, tear down competitors, kill weak ideas, find/check evidence, size markets. |
-| `field-notes` | 3 skills | Personal debriefs: F1 races, football matches, and night-sky observation sessions. |
+| `code` | 26 skills + 7 agents + 3 commands + hooks | The full code lifecycle: commit/review/test/TDD, PR write-ups and release checklists, product specs and API/DB design, web performance, and security review with guardrail hooks. |
+| `notes` | 10 skills + 4 agents | Steer Claude and think before you build: skill authoring, planning, handoffs, terse mode; research and validation; plus personal debriefs for F1, football, and the night sky. |
 | `magic` | `claude-vs-dev`, `deliverables` | Org tooling over the GitHub + Atlassian (Jira) MCP servers: split human vs Claude-assisted commits, and map a contributor's commits to the Jira tickets they delivered. |
 
 ## Repository layout
