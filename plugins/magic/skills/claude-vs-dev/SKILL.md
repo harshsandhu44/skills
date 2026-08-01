@@ -1,6 +1,6 @@
 ---
 name: claude-vs-dev
-description: Compare developer-written vs Claude-assisted code in a git repo by reading commit trailers — Claude-assisted commits carry a `Co-Authored-By: Claude` trailer. Aggregates commit count and line churn per bucket over a user-chosen time range and writes a temp HTML report to open in the browser. Use when the user asks how much code was Claude-assisted, wants to split human vs AI commits, or requests a Claude-vs-developer contribution report for a repo.
+description: "Compare developer-written vs Claude-assisted code in a git repo by reading commit trailers — Claude-assisted commits carry a `Co-Authored-By: Claude` trailer. Aggregates commit count and line churn per bucket over a user-chosen time range and writes a temp HTML report to open in the browser. Use when the user asks how much code was Claude-assisted, wants to split human vs AI commits, or requests a Claude-vs-developer contribution report for a repo."
 ---
 
 # claude-vs-dev
