@@ -1,0 +1,9 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "The full code lifecycle: commit/review/test/TDD, PR write-ups and release checklists, product specs and API/DB design, web performance audits, and security review with guardrail hooks.",
+  "author": {
+    "name": "Harsh Sandhu",
+    "email": "me@harshsandhu.com"
+  }
+}

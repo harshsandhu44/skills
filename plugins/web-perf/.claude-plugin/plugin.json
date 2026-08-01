@@ -1,9 +1,0 @@
-{
-  "name": "web-perf",
-  "version": "0.2.0",
-  "description": "Analyze and improve web performance: Core Web Vitals, bundle size, Next.js rendering, SEO/a11y, and landing-page conversion.",
-  "author": {
-    "name": "Harsh Sandhu",
-    "email": "me@harshsandhu.com"
-  }
-}

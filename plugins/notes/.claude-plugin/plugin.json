@@ -1,0 +1,9 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Steer Claude and think before you build: skill authoring, planning, handoffs and terse mode; research and validation; plus personal debriefs for F1, football, and the night sky.",
+  "author": {
+    "name": "Harsh Sandhu",
+    "email": "me@harshsandhu.com"
+  }
+}

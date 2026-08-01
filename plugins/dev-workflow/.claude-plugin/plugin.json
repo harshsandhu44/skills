@@ -1,9 +1,0 @@
-{
-  "name": "dev-workflow",
-  "version": "0.1.0",
-  "description": "The everyday coding loop: commit, review, branch tests, and TDD.",
-  "author": {
-    "name": "Harsh Sandhu",
-    "email": "me@harshsandhu.com"
-  }
-}
